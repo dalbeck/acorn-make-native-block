@@ -8,7 +8,7 @@
       "email": "dalbeck@albeckconsulting.com"
     }
   ],
-  "repositories": [
+"repositories": [
     {
       "type": "vcs",
       "url": "https://github.com/dalbeck/acorn-make-native-block"
