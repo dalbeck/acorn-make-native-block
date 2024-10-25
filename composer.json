@@ -1,0 +1,34 @@
+{
+  "name": "dalbeck/danativeblocks",
+  "description": "An Acorn package for generating and registering native WordPress blocks.",
+  "type": "package",
+  "authors": [
+    {
+      "name": "Danny Albeck",
+      "email": "dalbeck@albeckconsulting.com"
+    }
+  ],
+  "keywords": [
+    "wordpress",
+    "gutenberg",
+    "acorn",
+    "native",
+    "block"
+  ],
+  "support": {
+    "issues": "https://github.com/dalbeck/acorn-make-native-block/issues"
+  },
+  "autoload": {
+    "psr-4": {
+      "DANativeBlocks\\": "src/"
+    }
+  },
+  "extra": {
+    "acorn": {
+      "providers": [
+        "DANativeBlocks\\Providers\\BlockServiceProvider",
+        "DANativeBlocks\\NativeBlockMakerServiceProvider"
+      ]
+    }
+  }
+}
