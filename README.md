@@ -13,7 +13,7 @@ An Acorn package that automates the creation of native WordPress blocks for Sage
 To install the package, add it to your Sage project:
 
 ```bash
-composer require your-vendor/native-block-maker
+composer require dalbeck/danativeblock
 ```
 
 ## Usage

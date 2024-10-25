@@ -8,6 +8,12 @@
       "email": "dalbeck@albeckconsulting.com"
     }
   ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/dalbeck/acorn-make-native-block"
+    }
+  ],
   "keywords": [
     "wordpress",
     "gutenberg",
