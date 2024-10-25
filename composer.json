@@ -1,7 +1,7 @@
 {
   "name": "dalbeck/danativeblocks",
   "description": "An Acorn package for generating and registering native WordPress blocks.",
-  "type": "package",
+  "type": "library",
   "authors": [
     {
       "name": "Danny Albeck",
